@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="font-poppins selection:bg-blue-300 selection:text-blue-500 scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parallax Scrolling</title>
+</head>
+
+<body class="overflow-x-hidden">
+  <h1 class="sr-only">Parallax Scrolling</h1>
+  <main class="bg-gradient-to-t from-blue-2 to-blue-1">
+
+    <header class="z-50 absolute top-0 left-0 w-full py-8 px-24 flex justify-between items-center">
+      <a href="#" class="text-white font-bold text-3xl tracking-widest uppercase">Logo</a>
+      <ul class="grid gap-5 grid-flow-col">
+      <!-- <ul class="flex space-x-5"> -->
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+
+    <section class="relative w-full h-screen p-24 flex justify-center items-center">
+      <img src="./asset/images/stars.png" alt="stars" id="stars" class="">
+      <img src="./asset/images/moon.png" alt="moon" id="moon" class='mix-blend-screen'>
+      <img src="./asset/images/mountains-back.png" alt="mountains-back" id="mountains-back">
+      <h2 id="text" class="absolute font-bold text-white whitespace-nowrap text-[7.5vw] z-10">Moon Light</h2>
+      <a href="#" id="btn" class="px-7 py-2 rounded-[40px] bg-white text-blue-1 text-2xl z-10 translate-y-24">Explore</a>
+      <img src="./asset/images/mountains-front.png" alt="mountains-front" id="mountains-front" class="z-20">
+    </section>
+  </main>
+</body>
+
+</html>

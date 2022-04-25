@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* scroll */
+  html ::-webkit-scrollbar {
+    @apply bg-neutral-100 w-2 h-2;
+  }
+  html ::-webkit-scrollbar-thumb {
+    @apply rounded-sm bg-blue-400;
+  }
+}
+@layer components {
+  header ul li a {
+    @apply block text-white px-4 py-2 rounded-2xl hover:bg-white hover:text-blue-1 transition-colors
+  }
+  section img {
+    @apply absolute top-0 left-0 w-full h-full object-cover pointer-events-none
+  }
+}
+@layer utilities {
+  .active {
+    @apply bg-white text-blue-1
+  }
+}
