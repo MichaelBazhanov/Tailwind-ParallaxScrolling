@@ -14,6 +14,7 @@ module.exports = {
       colors: {
         'blue-1': '#2b1055',
         'blue-2': '#7597de',
+        'brown-1': '#1c0522',
       },
       // backgroundImage: {
       //   'stars': "url('/src/asset/images/stars.png')",

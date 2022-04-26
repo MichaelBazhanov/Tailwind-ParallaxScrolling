@@ -18,6 +18,9 @@
   section img {
     @apply absolute top-0 left-0 w-full h-full object-cover pointer-events-none
   }
+  section {
+    @apply before:absolute before:bottom-0 before:w-full before:h-24 before:z-50 before:bg-gradient-to-t before:from-brown-1 before:to-transparent
+  }
 }
 @layer utilities {
   .active {
