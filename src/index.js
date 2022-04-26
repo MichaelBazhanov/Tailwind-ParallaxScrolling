@@ -1,8 +1,8 @@
 import './styles/index.pcss'
 
-import './asset/images/stars2.png'
 
-// ### #toggle-menu
+
+
 window.onload = function () {
   let stars = document.querySelector('#stars')
   let moon = document.querySelector('#moon')

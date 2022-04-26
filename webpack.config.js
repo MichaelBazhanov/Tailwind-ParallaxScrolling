@@ -8,7 +8,7 @@ if (process.env.NODE_ENV === 'production') {
   mode = 'production'
 }
 // закомментировать строку ниже если нужно собрать BUILD локально >>>>>>>>>>>>>>>>>>>>>>>>>
-const publicPath = "/AdminDashboard-Tailwind-GridSystem/"; // https://github.com/MichaelBazhanov/AdminDashboard-Tailwind-GridSystem
+const publicPath = "/Tailwind-ParallaxScrolling/"; // https://github.com/MichaelBazhanov/Tailwind-ParallaxScrolling
 
 console.log(mode + ' mode')
 console.log(publicPath + ' publicPath')
@@ -42,7 +42,7 @@ module.exports = {
     ],
   },
   plugins: [
-    new FaviconsWebpackPlugin('./src/asset/images/GridSystem.svg'), // svg works too!
+    new FaviconsWebpackPlugin('./src/asset/images/Moon.svg'), // svg works too!
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
     }),
